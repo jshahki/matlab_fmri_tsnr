@@ -5,7 +5,7 @@ These MATLAB scripts can be used for performing either masked or unmasked tempor
 Briefly, the temporal signal to noise ratio for a given fMRI run can be caluclated voxel-wise by dividing the mean of the signal time series by the standard deviation of the signal time series:
 
 $$
-tSNR = \frac{\mathrm{mean}_{\text{signal time series}}}{\mathrm{std}_{\text{signal time series}}}
+tSNR = \frac{\mathrm{mean}_{\text{signal time series}}}{\mathrm{stdev}_{\text{signal time series}}}
 $$
 
 If a brain masked is used, these calculations are performed at each voxel of the brain, and the whole-brain mean tSNR for a given fMRI scanning run can be calculated like so:
@@ -19,6 +19,10 @@ This can give a quick and easy image quality metric for signal intensity and sta
 # Instructions for Use:
 
 ## tSNR_HeatMap_3Dnii_without_Masking
+
+This script performs tSNR calculations without requiring a brain mask, so it can be ideal if you do not have one on hand. Here are the steps to run this script:
+
+
 
 ## tSNR_HeatMap_3Dnii_with_Masking
 
