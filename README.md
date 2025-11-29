@@ -20,9 +20,9 @@ When performed on realigned fMRI volumes, this can give a quick and easy image q
 
 
 
-*In the case above, the outlier subject was missing data from their cerebellum:
+*In the case above, the outlier subject was missing data from their cerebellum and occipital brain regions:
 
-![image](figures/figure_2.png)
+<img src="figures/figure_2.png" width="450">
 
 # Instructions for Use: `tsnr_with_masking.m`
 
