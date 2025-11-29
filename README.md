@@ -92,7 +92,7 @@ You may rename `dataset_1`, `dataset_2`, etc. to the name of your datasets, but 
 
 The `tsnr_output` folder is where the output will go. Specifically, .nii heat maps of whole-brain tSNRs for each subject will be produced, along with an overall average .nii heat map for each dataset. As well, a .xlsx file with each subject's whole-brain mean tSNRs will be produced. These values can be used for producing plots or performing statistics to identify and quantify potential significant differences.
 
-## Modifying script parameters
+## Modifying Script Parameters
 
 After organizing your directory, and before running the `tsnr_with_masking.m` script, please modify the input and output parameters to match the naming of your directory.
 
@@ -112,6 +112,12 @@ If your .nii volumes have a different prefix (ie. if they do not start with swa)
 
 `line 54`: `nii_files = dir(fullfile(subject_path, 'swa*.nii'));` ---> `nii_files = dir(fullfile(subject_path, 'sr*.nii'));`
 
+## After Running the Script
 
+The output will be placed inside the `tsnr_output` folder. This will include the .xlsx file with mean tSNR values, as well as the tSNR .nii heat maps. These tSNR heat maps will allow you to visualize the specific voxel-wise tSNR values throughout the whole brain:
 
+<img src="figures/figure_3.png" width="450">
 
+# Version Information
+
+Version: 19April_2025
