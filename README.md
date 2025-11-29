@@ -22,7 +22,7 @@ When performed on realigned fMRI volumes, this can give a quick and easy image q
 
 *In the case above, the outlier subject was missing data from their cerebellum:
 
-
+![image](figures/figure_2.png)
 
 # Instructions for Use: `tsnr_with_masking.m`
 
