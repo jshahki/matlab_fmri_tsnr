@@ -93,13 +93,17 @@ You may rename `dataset_1`, `dataset_2`, etc. to the name of your datasets, but 
 
 After organizing your directory, and before running the `tsnr_with_masking.m` script, please modify the input and output parameters to match the naming of your directory.
 
-`line 5`: Paste the path to your `data` folder. Eg. `input_folder = 'Z:\People\JohnS\Volunteering_Work\WM_VISION_tSNR\WM_VISION_Data_2';`
+`line 5`: Paste the path to your `data` folder.
+Eg. `input_folder = 'Z:\People\JohnS\Volunteering_Work\WM_VISION_tSNR\WM_VISION_Data_2';`
 
-`line 6`: Paste the path to your `masks` folder. Eg. `input_masks = 'Z:\People\JohnS\Volunteering_Work\WM_VISION_tSNR\WM_VISION_Masks';`
+`line 6`: Paste the path to your `masks` folder.
+Eg. `input_masks = 'Z:\People\JohnS\Volunteering_Work\WM_VISION_tSNR\WM_VISION_Masks';`
 
-`line 7`: Paste the path to your `tsnr_output` folder. Eg. `output_folder = 'C:\Users\John.Shahki\Documents\tSNR_Testing_for_GitHub\5\tSNRHeatmap';`
+`line 7`: Paste the path to your `tsnr_output` folder.
+Eg. `output_folder = 'C:\Users\John.Shahki\Documents\tSNR_Testing_for_GitHub\5\tSNRHeatmap';`
 
-`line 8`: Paste the path to where you would like your .xlsx file outputted. This line is also where you can modify the name of the outputted .xlsx file. Eg. `output_excel = 'C:\Users\John.Shahki\Documents\tSNR_Testing_for_GitHub\5\tSNR_summary.xlsx';` will output an Excel file named `tSNR_summary.xlsx`
+`line 8`: Paste the path to where you would like your .xlsx file outputted. This line is also where you can modify the name of the outputted .xlsx file.
+Eg. `output_excel = 'C:\Users\John.Shahki\Documents\tSNR_Testing_for_GitHub\5\tSNR_summary.xlsx';` will output an Excel file named `tSNR_summary.xlsx`
 
 If your .nii volumes have a different prefix (ie. if they do not start with swa), then you may also modify `line 54`. For instance, if my .nii volumes had a sr file name prefix, then I would modify `line 54` as follows:
 
