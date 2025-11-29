@@ -16,9 +16,12 @@ $$
 
 Where V is the total number of voxels accounted for in the brain by the brain mask, and v represents a given brain voxel.
 
-When performed on realigned fMRI volumes, this can give a quick and easy image quality metric for signal intensity and stability. Extreme outliers for a given fMRI run (eg. whole-brain mean tSNRs of nearly 0) can indicate problems with the quality of the data. The plot below gives a good example of this:
+When performed on realigned fMRI volumes, this can give a quick and easy image quality metric for signal intensity and stability. Extreme outliers for a given fMRI run (eg. whole-brain mean tSNRs of nearly 0) can indicate problems with the quality of the data. The plot below gives a good example of this<sup>*</sup>:
 
-In the case above, the outlier subject was missing data from their cerebellum:
+
+
+*In the case above, the outlier subject was missing data from their cerebellum:
+
 
 
 # Instructions for Use: tsnr_with_masking.m
