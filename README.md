@@ -24,7 +24,7 @@ When performed on realigned fMRI volumes, this can give a quick and easy image q
 
 
 
-# Instructions for Use: tsnr_with_masking.m
+# Instructions for Use: `tsnr_with_masking.m`
 
 This script performs tSNR calculations and incorporates an fMRI-CPCA-derived brain mask for calculating whole-brain tSNR averages. If you do not have an fMRI-CPCA-derived brain mask, then one is provided here in the masks folder. This script is able to run multiple different datasets simultaneously.
 
