@@ -21,13 +21,17 @@ When performed on realigned fMRI volumes, this can give a quick and easy image q
 
 <img src="figures/figure_1.png" width="450">
 
-*In the case above, the outlier subject was found to be missing data from their cerebellum and occipital brain regions:
+*In the case above, the outlier subject was found to be missing signal from their cerebellum and occipital brain regions:
 
 <img src="figures/figure_2.png" width="450">
 
+The signal was also found to be abnormal throughout the brain, as illustrated by tSNR voxel-wise values overlayed on the MNI T1 template below:
+
+<img src="figures/figure_4.png" width="450">
+
 # Instructions for Use: `tsnr_with_masking.m`
 
-This script performs tSNR calculations and incorporates an fMRI-CPCA-derived brain mask for calculating whole-brain tSNR averages. If you do not have an fMRI-CPCA-derived brain mask, then one is provided here in the masks folder. This script is able to run multiple different datasets simultaneously.
+This script performs tSNR calculations and incorporates an fMRI-CPCA-derived brain mask for calculating whole-brain tSNR averages. This script is able to run multiple different datasets simultaneously. If you do not have an fMRI-CPCA-derived brain mask, then one is provided here in the `tools` folder, named `mask_used.hdr/img`. This mask template is in MNI space and has voxel sizes of `3x3x3` and image dimensions of `53x63x52`. Please note that the voxel sizes and image dimensions of your scans should match those of your mask. If you require a script for reslicing your scans to match a mask, one is provided here: https://github.com/jshahki/matlab_reslice/tree/27August_2025
 
 ## Folder organization
 
