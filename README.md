@@ -101,10 +101,10 @@ The `tsnr_output` folder is where the output will go. Specifically, .nii heat ma
 After organizing your directory, and before running the `tsnr_with_masking.m` script, please modify the input and output parameters to match the naming of your directory.
 
 `line 5`: Paste the path to your `data` folder.
-Eg. `input_folder = 'Z:\People\JohnS\Volunteering_Work\WM_VISION_tSNR\WM_VISION_Data_2';`
+Eg. `input_folder = 'Z:\People\JohnS\Volunteering_Work\Dataset_Test\Data_2';`
 
 `line 6`: Paste the path to your `masks` folder.
-Eg. `input_masks = 'Z:\People\JohnS\Volunteering_Work\WM_VISION_tSNR\WM_VISION_Masks';`
+Eg. `input_masks = 'Z:\People\JohnS\Volunteering_Work\Dataset_Test\Masks';`
 
 `line 7`: Paste the path to your `tsnr_output` folder.
 Eg. `output_folder = 'C:\Users\John.Shahki\Documents\tSNR_Testing_for_GitHub\5\tSNRHeatmap';`
