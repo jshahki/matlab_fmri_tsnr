@@ -2,10 +2,10 @@ clear;
 clc;
 
 %% ========== INPUT / OUTPUT SETUP ==========
-input_folder = 'Z:\People\JohnS\Volunteering Work\WM_VISION_tSNR\WM_VISION_Data_2';
-input_masks = 'Z:\People\JohnS\Volunteering Work\WM_VISION_tSNR\WM_VISION_Masks';
-output_folder = 'Z:\People\JohnS\Volunteering Work\WM_VISION_tSNR\Version April 19 2025\tSNRHeatmap';
-output_excel = 'Z:\People\JohnS\Volunteering Work\WM_VISION_tSNR\Version April 19 2025\tSNR_summary.xlsx';
+input_folder = 'Z:\People\JohnS\Volunteering Work\Dataset_Test\Data_2';
+input_masks = 'Z:\People\JohnS\Volunteering Work\Dataset_Test\Masks';
+output_folder = 'Z:\People\JohnS\Volunteering Work\Dataset_Test\Version April 19 2025\tSNRHeatmap';
+output_excel = 'Z:\People\JohnS\Volunteering Work\Dataset_Test\Version April 19 2025\tSNR_summary.xlsx';
 
 figures_folder = fullfile(output_folder, 'tSNR_Figures');
 if ~exist(figures_folder, 'dir')
